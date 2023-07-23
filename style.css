@@ -1,1 +1,38 @@
+body {
+    background-color: #B3A5A4;
+}
 
+.title {
+    text-align: center;
+}
+
+
+.background {
+    width: 890px;
+    height: 550px;
+    filter: brightness(80%);
+    background: url(../ghostRain/img/background.PNG) no-repeat;
+    background-size: contain;
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    overflow: hidden;
+}
+
+/* .button {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+button {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background: url(../ghostRain/img/restart.png) no-repeat;
+    background-size: contain;
+} */
